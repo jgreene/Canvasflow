@@ -48,10 +48,12 @@ The Canvasflow object:
     - width, height, container, images
 * Optional arguments
     - click: this fires when the currently selected image is clicked/tapped
-            click: function(index){
-                var img = images[index];
-                //do something
-            }
+
+        click: function(index){
+            var img = images[index];
+            //do something
+        }
+
     - actualWidth, actualHeight: these will resize the canvas without warping any images
     - imgWidth, imgHeight: these will resize the images you provide without warping them
     - tilt: this is the tilt used when rendering offset images, defaults to .2
